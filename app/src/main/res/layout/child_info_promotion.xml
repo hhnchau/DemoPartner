@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/info_promotion_child_margin_top"
+        android:layout_marginLeft="@dimen/info_promotion_child_width"
+        android:layout_marginTop="@dimen/info_promotion_child_margin_top"
+        android:background="@drawable/background_item_with_shadow"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/info_promotion_child_padding_rows">
+
+            <ImageView
+                android:layout_width="@dimen/info_promotion_child_icon"
+                android:layout_height="@dimen/info_promotion_child_icon"
+                android:src="@drawable/discount" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_child_bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/info_promotion_margin_left_8"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textSize="@dimen/info_promotion_text_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/info_promotion_child_padding_rows">
+
+            <ImageView
+                android:layout_width="@dimen/info_promotion_child_icon"
+                android:layout_height="@dimen/info_promotion_child_icon"
+                android:src="@drawable/calendar_time" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/info_promotion_margin_left_8"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/txt_5_apply_period"
+                android:textSize="@dimen/info_promotion_text_16" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_child_time_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/info_promotion_margin_right_8"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/info_promotion_child_padding_rows">
+
+            <ImageView
+                android:layout_width="@dimen/info_promotion_child_icon"
+                android:layout_height="@dimen/info_promotion_child_icon"
+                android:src="@drawable/clock" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/info_promotion_margin_left_8"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="@string/txt_5_coupon_validity"
+                android:textSize="@dimen/info_promotion_text_16" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_child_time_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/info_promotion_margin_right_8"
+                android:maxLines="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

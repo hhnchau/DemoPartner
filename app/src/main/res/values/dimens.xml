@@ -1,0 +1,282 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_splash_70">70dp</dimen>
+
+    <dimen name="margin_top_username_32">32dp</dimen>
+    <dimen name="margin_top_logo_40">40dp</dimen>
+    <dimen name="margin_top_city_40">40dp</dimen>
+    <dimen name="margin_edittex_16">16dp</dimen>
+    <dimen name="margin_line_4">4dp</dimen>
+    <dimen name="logo_120">120dp</dimen>
+    <dimen name="margin_left_right_64">64dp</dimen>
+    <dimen name="icon_login_20">20dp</dimen>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--for dialog popup-->
+    <dimen name="popup_width">300dp</dimen>
+    <dimen name="text_popup">16sp</dimen>
+    <dimen name="padding_popup_main">24dp</dimen>
+    <dimen name="padding_text">32dp</dimen>
+    <dimen name="padding_button">8dp</dimen>
+    <dimen name="size_logo">80dp</dimen>
+    <dimen name="padding_logo">8dp</dimen>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--for list slide menu-->
+    <dimen name="width_menu">180dp</dimen>
+    <dimen name="text_menu">18sp</dimen>
+    <dimen name="padding">16dp</dimen>
+
+
+    <!--for toolbar-->
+    <dimen name="height_toolbar">40dp</dimen>
+    <dimen name="icon_toolbar">30dp</dimen>
+    <dimen name="text_toolbar">18sp</dimen>
+    <dimen name="margin_toolbar">10dp</dimen>
+
+
+    <!--for rounded_org-->
+    <dimen name="text_no_result">16dp</dimen>
+
+    <!--for rounded_org-->
+    <dimen name="rounded">12dp</dimen>
+
+    <!--for dialog calendar-->
+    <dimen name="calendar">340dp</dimen>
+
+    <!--for item loading-->
+    <dimen name="loading">60dp</dimen>
+
+    <!--for radius column-->
+    <dimen name="radius_3">3dp</dimen>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--margin right between text and image-->
+    <dimen name="dashboard_margin_8">8dp</dimen>
+
+    <!--margin top between columns-->
+    <dimen name="dashboard_margin_top_12">12dp</dimen>
+
+    <!--for text Hom nay-->
+    <dimen name="txt_dashboard_today_16">16sp</dimen>
+
+    <!--for text TONG DOANH THU-->
+    <dimen name="txt_dashboard_total_revenue_text_24">24sp</dimen>
+
+    <!--for text 8.000.000-->
+    <dimen name="txt_dashboard_total_revenue_number">40sp</dimen>
+
+    <!--for number 8-->
+    <dimen name="txt_dashboard_total_reservation">28sp</dimen>
+
+    <!--for text Tong so khach dat phong-->
+    <dimen name="txt_dashboard_total_guest_reservation_16">16sp</dimen>
+
+    <!--for text Thang nay-->
+    <dimen name="txt_dashboard_this_month_16">16sp</dimen>
+
+    <!--for text in column - Cho xac nhan-->
+    <dimen name="txt_dashboard_status_16">16sp</dimen>
+
+    <!--for text 8-->
+    <dimen name="txt_dashboard_status_number_32">32sp</dimen>
+
+    <!--for icon in column-->
+    <dimen name="dashboard_icon_height_32">32dp</dimen>
+    <dimen name="dashboard_icon_width_32">32dp</dimen>
+
+    <!--for number -->
+    <dimen name="dashboard_width_number_80">80dp</dimen>
+
+    <!--height column-->
+    <dimen name="dashboard_column_height_60">60dp</dimen>
+
+    <!--height column for color-->
+    <dimen name="dashboard_column_height_58">58dp</dimen>
+
+    <!--for color in column-->
+    <dimen name="dashboard_column_margin_left_50">15dp</dimen>
+
+    <!--margin this month-->
+    <dimen name="dashboard_margin_right_32">32dp</dimen>
+
+    <!--padding 80000000-->
+    <dimen name="dashboard_padding">16dp</dimen>
+
+    <!--===================================================-->
+
+    <!--for text unpaid-->
+    <dimen name="dashboard_unpaid_text_size">12sp</dimen>
+    <dimen name="dashboard_unpaid_margin_left">-20dp</dimen>
+    <dimen name="dashboard_unpaid_margin_top">36dp</dimen>
+    <dimen name="dashboard_unpaid_margin_left_round">8dp</dimen>
+    <dimen name="dashboard_unpaid_margin_top_round">80dp</dimen>
+
+    <!--for text paid-->
+    <dimen name="dashboard_unpaid_margin_left_paid">8dp</dimen>
+    <dimen name="dashboard_unpaid_margin_top_paid">40dp</dimen>
+    <dimen name="dashboard_unpaid_margin_left_round_paid">30dp</dimen>
+
+
+
+    <!--text size-->
+    <dimen name="manage_reservation_text_size">12sp</dimen>
+    <dimen name="manage_reservation_text_size_32">32sp</dimen>
+
+    <!--Header-->
+    <dimen name="manage_reservation_margin_header">4dp</dimen>
+
+    <!--margin left for number 8-->
+    <dimen name="manage_reservation_number_margin">50dp</dimen>
+    <!--margin left for number 8-->
+    <dimen name="manage_reservation_number_margin_4">4dp</dimen>
+    <!--margin left for number 8-->
+    <dimen name="manage_reservation_number_margin_8">8dp</dimen>
+
+    <!--padding for number 8-->
+    <dimen name="manage_reservation_number_padding">4dp</dimen>
+
+    <!--width for number 8-->
+    <dimen name="manage_reservation_number_width">70dp</dimen>
+
+    <!--width for spiner-->
+    <dimen name="manage_reservation_spiner_width">200dp</dimen>
+    <dimen name="manage_reservation_spiner_margin_top">8dp</dimen>
+    <dimen name="manage_reservation_spiner_margin_left">16dp</dimen>
+
+    <!--padding for calendar-->
+    <dimen name="manage_reservation_calendar_padding_24">24dp</dimen>
+    <!--margin for calendar-->
+    <dimen name="manage_reservation_calendar_margin">16dp</dimen>
+    <!--icon for calendar-->
+    <dimen name="manage_reservation_calendar_icon">24dp</dimen>
+    <!--margin for calendar-->
+    <dimen name="manage_reservation_calendar_margin_box">-10dp</dimen>
+
+    <!--padding for title-->
+    <dimen name="manage_reservation_title_padding">8dp</dimen>
+
+    <!--for title-->
+    <dimen name="manage_reservation_with_id">50dp</dimen>
+    <dimen name="manage_reservation_with_info">120dp</dimen>
+    <dimen name="manage_reservation_with_coupon">50dp</dimen>
+    <dimen name="manage_reservation_with_room">50dp</dimen>
+    <dimen name="manage_reservation_with_type">80dp</dimen>
+    <dimen name="manage_reservation_with_date">80dp</dimen>
+    <dimen name="manage_reservation_with_time">80dp</dimen>
+
+    <!--...............................................-->
+
+    <!--item spinner-->
+    <dimen name="spinner_text_size">14dp</dimen>
+    <dimen name="spinner_list_padding">8dp</dimen>
+    <dimen name="spinner_list_margin">16dp</dimen>
+
+    <!--=================================================================-->
+
+    <!--info promotion text-->
+    <dimen name="info_promotion_text_16">16sp</dimen>
+    <!--info promotion text-->
+    <dimen name="info_promotion_title_text_18">18sp</dimen>
+
+    <!--info margin left-->
+    <dimen name="info_promotion_margin_left_8">8dp</dimen>
+
+    <!--info margin right-->
+    <dimen name="info_promotion_margin_right_8">8dp</dimen>
+
+    <!--size for image-->
+    <dimen name="info_promotion_image_80">80dp</dimen>
+
+    <dimen name="info_promotion_group_height">80dp</dimen>
+    <dimen name="info_promotion_group_width">35dp</dimen>
+    <dimen name="info_promotion_margin_text">4dp</dimen>
+
+    <!--size for child icon-->
+    <dimen name="info_promotion_child_icon">20dp</dimen>
+
+    <dimen name="info_promotion_child_width">50dp</dimen>
+
+    <dimen name="info_promotion_child_margin_top">1dp</dimen>
+
+    <dimen name="info_promotion_child_padding_rows">3dp</dimen>
+
+    <!--......................................................................-->
+    <!--size text-->
+    <dimen name="item_faq_text_size">16sp</dimen>
+
+    <dimen name="item_faq_padding_height">16dp</dimen>
+
+    <dimen name="item_faq_padding">16dp</dimen>
+
+    <!--......................................................................-->
+    <!--size text-->
+    <dimen name="item_comment_text_size">16sp</dimen>
+
+    <dimen name="item_comment_padding_height">16dp</dimen>
+
+    <dimen name="item_comment_padding">16dp</dimen>
+
+    <dimen name="item_comment_icon_star">24dp</dimen>
+
+    <!--......................................................................-->
+    <!--size text for number-->
+    <dimen name="comment_text_size_number">36sp</dimen>
+    <dimen name="comment_text_size">16sp</dimen>
+    <dimen name="comment_icon_star">32dp</dimen>
+    <dimen name="comment_width_number">90dp</dimen>
+    <!--size for between_number_and_star-->
+    <dimen name="comment_margin_between_number_and_star">24dp</dimen>
+    <!--margin top Listview-->
+    <dimen name="comment_margin_top_list_view">8dp</dimen>
+
+    <!--......................................................................-->
+    <!--setting-->
+    <dimen name="setting_text_size">16sp</dimen>
+    <dimen name="setting_text_size_regular">16sp</dimen>
+    <!--for title-->
+    <dimen name="setting_text_padding">8dp</dimen>
+    <dimen name="setting_width_color">16dp</dimen>
+    <!--for arrow-->
+    <dimen name="setting_width_arrow">80dp</dimen>
+    <dimen name="setting_height_arrow">40dp</dimen>
+
+    <!--for margin top & bottom-->
+    <dimen name="setting_margin_arrow">8dp</dimen>
+
+    <!--for arrow left right-->
+    <dimen name="setting_padding_arrow">12dp</dimen>
+
+    <dimen name="setting_icon_arrow">20dp</dimen>
+
+    <!--for margin between arrow-->
+    <dimen name="setting_margin_two_arrow">8dp</dimen>
+
+    <dimen name="setting_icon_box">20dp</dimen>
+
+    <!--for input-->
+    <dimen name="setting_width_arrow_input">110dp</dimen>
+    <dimen name="setting_margin_input">4dp</dimen>
+    <dimen name="setting_width_input">50dp</dimen>
+    <dimen name="setting_height_input">25dp</dimen>
+
+    <!--for padding input-->
+    <dimen name="setting_padding_input">8dp</dimen>
+
+    <!--for Setting ListView-->
+    <dimen name="setting_listview_height">200dp</dimen>
+    <dimen name="setting_listview_text_size">24sp</dimen>
+    <dimen name="setting_listview_text_padding">8dp</dimen>
+
+    <!--for Input-->
+    <dimen name="dialog_input_padding">24dp</dimen>
+
+
+
+
+
+</resources>

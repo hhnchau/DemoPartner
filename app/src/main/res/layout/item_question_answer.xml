@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/item_faq_padding"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--Username-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Bold
+            android:id="@+id/textView_item_faq_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/org"
+            android:textSize="@dimen/item_faq_text_size" />
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+            android:id="@+id/textView_item_faq_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_faq_text_size" />
+    </LinearLayout>
+
+    <!--Question-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_3_1_question"
+            android:visibility="gone"
+            android:textSize="@dimen/item_faq_text_size" />
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+            android:id="@+id/textView_item_faq_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/item_faq_text_size" />
+    </LinearLayout>
+
+    <!--Padding-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_faq_padding_height" />
+
+    <!--Answer-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_3_1_awnser"
+            android:visibility="gone"
+            android:textSize="@dimen/item_faq_text_size" />
+
+        <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+            android:id="@+id/textView_item_faq_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/item_faq_text_size" />
+    </LinearLayout>
+
+    <!--Line-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.3dp"-->
+        <!--android:background="@color/black" />-->
+
+</LinearLayout>

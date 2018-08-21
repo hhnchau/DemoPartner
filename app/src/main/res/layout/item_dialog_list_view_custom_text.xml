@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Bold xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/setting_listview_text_padding"
+    android:textColor="@color/white"
+    android:textSize="@dimen/setting_listview_text_size">
+
+</com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Bold>

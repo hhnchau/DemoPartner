@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/manage_reservation_number_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_item_manage_reservation_paid"
+                android:layout_width="@dimen/rounded"
+                android:layout_height="@dimen/rounded"
+                android:layout_marginLeft="@dimen/dashboard_unpaid_margin_left_round"
+                android:gravity="center"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLength="3"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/manage_reservation_title_padding"
+            android:paddingTop="@dimen/manage_reservation_title_padding">
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_code"
+                android:layout_width="@dimen/manage_reservation_with_id"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="6"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_info"
+                android:layout_width="@dimen/manage_reservation_with_info"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="20"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_coupon"
+                android:layout_width="@dimen/manage_reservation_with_coupon"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="6"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_room"
+                android:layout_width="@dimen/manage_reservation_with_room"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="6"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_type"
+                android:layout_width="@dimen/manage_reservation_with_type"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="10"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_date"
+                android:layout_width="@dimen/manage_reservation_with_date"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="10"
+                android:textSize="@dimen/manage_reservation_text_size" />
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/textView_item_manage_reservation_time"
+                android:layout_width="@dimen/manage_reservation_with_time"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLength="10"
+                android:textSize="@dimen/manage_reservation_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

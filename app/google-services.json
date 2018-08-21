@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908916381506",
+    "firebase_url": "https://partner-10b7c.firebaseio.com",
+    "project_id": "partner-10b7c",
+    "storage_bucket": "partner-10b7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908916381506:android:4d7d17a931d2c05b",
+        "android_client_info": {
+          "package_name": "com.appromobile.partnerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908916381506-qosoa4tgrehb63qi5gsmceoh3q9sdve3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appromobile.partnerapp",
+            "certificate_hash": "899a46a34b26a2d3d0262641b301d3b2255deb10"
+          }
+        },
+        {
+          "client_id": "908916381506-cte8u9mp49a7g3kmhracv93etdk2ke87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlk9oflTLp0zXAh4y1nmT7PV7PHY4gS38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908916381506-cte8u9mp49a7g3kmhracv93etdk2ke87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

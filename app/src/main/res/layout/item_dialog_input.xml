@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/padding_popup_main"
+    android:layout_marginRight="@dimen/padding_popup_main"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_text"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittex_dialog_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/dialog_input_padding"
+            android:textSize="@dimen/text_popup"
+            android:maxLength="3"
+            android:inputType="number"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/input_dialog_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding_button"
+                android:textSize="@dimen/text_popup"
+                android:text="@string/cancel"/>
+
+            <com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+                android:id="@+id/input_dialog_apply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/popup_apply"
+                android:gravity="center"
+                android:padding="@dimen/padding_button"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_popup"
+                android:text="@string/txt_8_done"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<com.appromobile.partnerapp.font.TextView_Font_SanFrancisco_Regular
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/spinner_text_size"
+    android:gravity="center"
+    android:ellipsize="marquee" />

@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">PartnerApp</string>
+
+    <string name="last_version">Last version</string>
+    <string name="update">Update</string>
+
+    <string name="format_hour">g</string>
+    <string name="hour">giờ</string>
+    <string name="quit">Thoát</string>
+    <string name="cancel">Hủy</string>
+    <string name="no_data">Không có dữ liệu.</string>
+    <string name="txt_quit">Bạn có muốn thoát khỏi ứng dụng quản lý Go2Joy?</string>
+    <string name="no_push">Thiết bị này không hổ trợ Google Play Service. Bạn có muốn tiếp tục sử dụng mà không có nhận thông báo từ hệ thống?</string>
+    <string name="currency">VND</string>
+
+    <!--title menu-->
+    <string-array name="nav_drawer_items">
+        <item>@string/txt_1_2_reservation</item>
+        <item>@string/txt_1_2_promotion</item>
+        <item>@string/txt_1_2_review</item>
+        <item>@string/txt_10_faq</item>
+        <item>@string/txt_1_2_setting</item>
+        <item>@string/txt_1_2_logout</item>
+    </string-array>
+
+    <!--image menu-->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+    </array>
+
+    <string name="cannot_connect_to_server">Không thể kết nối đến máy chủ.</string>
+    <string name="app_need_to_connect_internet_please_turn_on_the_internet">Ứng dụng cần kết nối Internet khi sử dụng. Vui lòng bật Wifi hoặc 3G.</string>
+    <string name="token_invalid">Đăng nhập của bạn đã hết hạn. Vui lòng đăng nhập lại</string>
+    <string name="msg_0_please_enter_your_user_name">Vui lòng nhập tài khoản</string>
+    <string name="msg_0_please_enter_your_password">Vui lòng nhập mật khẩu</string>
+    <string name="msg_0_incorrect_user_name_or_password_please_try_again">Không đúng tài khoản hoặc mật khẩu. Vui lòng thử lại.</string>
+    <string name="txt_0_login">Đăng nhập</string>
+    <string name="txt_0_remember_me">Lưu đăng nhập</string>
+    <string name="txt_0_fotgot_your_pass">Quên mật khẩu ?</string>
+    <string name="txt_0_user_name">Tài khoản</string>
+    <string name="txt_0_pass_word">Mật khẩu</string>
+    <string name="msg_0_account_cannot_used">Tài khoản của bạn tạm thời không sử dụng được. Vui lòng liên hệ với quản trị hệ thống để được hỗ trợ.</string>
+    <string name="retry">Thử lại</string>
+    <string name="txt_1_2_reservation">Quản lý đặt phòng</string>
+    <string name="txt_1_2_promotion">Khuyến mãi</string>
+    <string name="txt_1_2_review">Bình luận</string>
+    <string name="txt_1_2_setting">Cài đặt</string>
+    <string name="txt_1_2_logout">Thoát</string>
+    <string name="txt_1_2_today">Hôm nay</string>
+    <string name="txt_1_2_this_month">Tháng này</string>
+    <string name="txt_1_2_total_revenu">Tổng doanh thu - vnđ</string>
+    <string name="txt_1_2_total_user">Tổng số khách đặt hôm nay</string>
+    <string name="txt_1_2_wait">Chờ xác nhận</string>
+    <string name="txt_1_2_confirm">Đã đặt</string>
+    <string name="txt_1_2_checkin">Đã nhận phòng</string>
+    <string name="txt_1_2_cancel">Đã hủy</string>
+    <string name="txt_3_1_id">Mã</string>
+    <string name="txt_3_1_information">Thông tin khách</string>
+    <string name="txt_3_1_coupon">Coupon</string>
+    <string name="txt_3_1_room">Phòng</string>
+    <string name="txt_3_1_roomtype">Loại</string>
+    <string name="txt_3_1_date">Ngày</string>
+    <string name="txt_3_1_time">Giờ</string>
+    <string name="txt_3_1_paid">Đã trả tiền</string>
+    <string name="txt_3_1_unpaid">Chưa trả tiền</string>
+    <string name="txt_3_1_hours">Giờ</string>
+    <string name="txt_3_1_overnight">Qua đêm</string>
+    <string name="txt_3_1_daily">Ngày</string>
+    <string name="txt_3_1_all">Tất cả</string>
+    <string name="txt_3_1_want_confrm">Xác nhận nhận phòng ?</string>
+    <string name="txt_3_1_want_checkin">Xác nhận check-in ?</string>
+    <string name="txt_3_1_no">Không</string>
+    <string name="txt_3_1_confirm">Xác nhận</string>
+    <string name="txt_3_1_check_in">Check-in</string>
+    <string name="txt_3_1_confirmed_successfully">Đặt phòng thành công</string>
+    <string name="txt_3_1_check_in_successfull">Nhận phòng thành công</string>
+    <string name="txt_5_total_review">Tổng bình luận</string>
+    <string name="txt_5_average_review">Trung bình đánh giá*</string>
+    <string name="txt_10_logout">Bạn có muốn đăng xuất khỏi ứng dụng quản lý Go2Joy?</string>
+    <string name="txt_10_yes">Có</string>
+    <string name="txt_8_checkout_time">Giờ trả phòng</string>
+    <string name="txt_8_overnight">Bắt đầu / kết thúc giờ qua đêm</string>
+    <string name="txt_8_number_line">Số dòng hiện thị</string>
+    <string name="txt_8_cancel_status">Trạng thái chấp nhận hủy</string>
+    <string name="txt_8_confirm_status">Trạng thái xác nhận đặt phòng</string>
+    <string name="txt_8_auto">Tự động</string>
+    <string name="txt_8_manual_confirm">Thủ công</string>
+    <string name="txt_8_manual_cancel">Ủy thác</string>
+    <string name="txt_8_before">Trước</string>
+    <string name="txt_8_done">Xong</string>
+    <string name="txt_8_update_successful">Cập nhật thành công</string>
+    <string name="txt_8_update_failure">Cập nhật thất bại</string>
+    <string name="txt_10_faq">Hỏi đáp</string>
+    <string name="txt_5_apply_successful">Áp dụng thành công</string>
+    <string name="txt_5_already_register">Khuyến mãi này đã được đăng ký rồi</string>
+    <string name="txt_5_expired">Khuyến mãi đã hết hạn</string>
+    <string name="txt_5_not_exists">Khuyến mãi không tồn tại</string>
+    <string name="txt_5_apply_period">Thời hạn chương trình:</string>
+    <string name="txt_5_coupon_validity">Thời hạn sử dụng:</string>
+    <string name="txt_5_apply">Áp dụng</string>
+    <string name="txt_5_apply_promotion">Áp dụng khuyến mãi?</string>
+    <string name="msg_3_1_user_booked">Go2Joy thông báo: Có khách vừa đặt phòng. Vui lòng xác nhận. Xin cảm ơn.</string>
+    <string name="msg_3_1_user_booked_auto">Go2Joy thông báo: Có khách vừa đặt phòng và đã được xác nhận tự động. Xin cảm ơn.</string>
+    <string name="txt_3_1_question">Câu hỏi: </string>
+    <string name="txt_3_1_awnser">Trả lời:</string>
+    <string name="msg_3_1_user_booked_title">Đặt phòng</string>
+    <string name="txt_3_1_receive">Nhận phòng</string>
+    <string name="txt_3_1_cancel">Hủy</string>
+    <string name="txt_3_1_cancel_successfull">Hủy phòng thành công.</string>
+    <string name="txt_8_weekend">Cuối tuần</string>
+    <string name="txt_8_input_hours">Vui lòng nhập số giờ.</string>
+    <string name="txt_8_setting_deny">Cài đặt từ chối đặt phòng.</string>
+    <string name="txt_8_weekend_on">Bật</string>
+    <string name="txt_8_weekend_off">Tắt</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

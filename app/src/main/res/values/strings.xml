@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">PartnerApp</string>
+
+    <string name="last_version">Last version</string>
+    <string name="update">Update</string>
+
+    <string name="format_hour">h</string>
+    <string name="hour">hrs</string>
+    <string name="quit">Quit</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_data">No data.</string>
+    <string name="txt_quit">Do you want to exit ?</string>
+    <string name="no_push">This device does not support the Google Play Service. Do you want to keep using without receiving notifications from the system?</string>
+    <string name="currency">VND</string>
+
+    <!--title menu-->
+    <string-array name="nav_drawer_items">
+        <item>@string/txt_1_2_reservation</item>
+        <item>@string/txt_1_2_promotion</item>
+        <item>@string/txt_1_2_review</item>
+        <item>@string/txt_10_faq</item>
+        <item>@string/txt_1_2_setting</item>
+        <item>@string/txt_1_2_logout</item>
+    </string-array>
+
+    <!--image menu-->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+        <item>@drawable/icon_username</item>
+    </array>
+
+    <string name="cannot_connect_to_server">Cannot connect to server.</string>
+    <string name="app_need_to_connect_internet_please_turn_on_the_internet">Application need to connect to internet. Please turn on the mobile internet or wifi.</string>
+    <string name="token_invalid">Your logined has been expired. Please login again.</string>
+    <string name="msg_0_please_enter_your_user_name">Please enter your username.</string>
+    <string name="msg_0_please_enter_your_password">Please enter your password.</string>
+    <string name="msg_0_incorrect_user_name_or_password_please_try_again">Incorrect username or password. Please try again.</string>
+    <string name="txt_0_login">Login</string>
+    <string name="txt_0_remember_me">Remeber me ?</string>
+    <string name="txt_0_fotgot_your_pass">Forgot your password ?</string>
+    <string name="txt_0_user_name">Username</string>
+    <string name="txt_0_pass_word">Password</string>
+    <string name="msg_0_account_cannot_used">Your account can not be used in temporary. Please contact administrator for supporting.</string>
+    <string name="retry">Retry</string>
+    <string name="txt_1_2_reservation">Reservation management.</string>
+    <string name="txt_1_2_promotion">Promotion</string>
+    <string name="txt_1_2_review">Review</string>
+    <string name="txt_1_2_setting">Setting</string>
+    <string name="txt_1_2_logout">Logout</string>
+    <string name="txt_1_2_today">This day</string>
+    <string name="txt_1_2_this_month">This month</string>
+    <string name="txt_1_2_total_revenu">Total revenu</string>
+    <string name="txt_1_2_total_user">Total user today</string>
+    <string name="txt_1_2_wait">Wait</string>
+    <string name="txt_1_2_confirm">Confirm</string>
+    <string name="txt_1_2_checkin">Check-in</string>
+    <string name="txt_1_2_cancel">Cancel</string>
+    <string name="txt_3_1_id">ID</string>
+    <string name="txt_3_1_information">Information</string>
+    <string name="txt_3_1_coupon">Coupon</string>
+    <string name="txt_3_1_room">Room</string>
+    <string name="txt_3_1_roomtype">Roomtype</string>
+    <string name="txt_3_1_date">Date</string>
+    <string name="txt_3_1_time">Time</string>
+    <string name="txt_3_1_paid">Paid</string>
+    <string name="txt_3_1_unpaid">Unpaid</string>
+    <string name="txt_3_1_hours">Hours</string>
+    <string name="txt_3_1_overnight">Overnight</string>
+    <string name="txt_3_1_daily">Daily</string>
+    <string name="txt_3_1_all">All</string>
+    <string name="txt_3_1_want_confrm">Do you want to confirm?</string>
+    <string name="txt_3_1_want_checkin">Do you want to check-in?</string>
+    <string name="txt_3_1_no">No</string>
+    <string name="txt_3_1_confirm">Confirm</string>
+    <string name="txt_3_1_check_in">Check-in</string>
+    <string name="txt_3_1_confirmed_successfully">Confirm successfully</string>
+    <string name="txt_3_1_check_in_successfull">Check-in successfull</string>
+    <string name="txt_5_total_review">Total review</string>
+    <string name="txt_5_average_review">Average review</string>
+    <string name="txt_10_logout">Do you want to logout ?</string>
+    <string name="txt_10_yes">Yes</string>
+    <string name="txt_8_checkout_time">Check-out time</string>
+    <string name="txt_8_overnight">Overnight time</string>
+    <string name="txt_8_number_line">Number lines</string>
+    <string name="txt_8_cancel_status">Cancel status</string>
+    <string name="txt_8_confirm_status">Confirm status</string>
+    <string name="txt_8_auto">Auto</string>
+    <string name="txt_8_manual_confirm">Manual</string>
+    <string name="txt_8_manual_cancel">Manual</string>
+    <string name="txt_8_before">Before</string>
+    <string name="txt_8_done">Done</string>
+    <string name="txt_8_update_successful">Update successfull</string>
+    <string name="txt_8_update_failure">Update failure</string>
+    <string name="txt_10_faq">FAQ</string>
+    <string name="txt_5_apply_successful">Apply successful</string>
+    <string name="txt_5_already_register">Already register</string>
+    <string name="txt_5_expired">Expired</string>
+    <string name="txt_5_not_exists">Not exists</string>
+    <string name="txt_5_apply_period">Apply period:</string>
+    <string name="txt_5_coupon_validity">Coupon validity:</string>
+    <string name="txt_5_apply">Apply</string>
+    <string name="txt_5_apply_promotion">Do you want to apply this promotion?</string>
+    <string name="msg_3_1_user_booked"></string>
+    <string name="msg_3_1_user_booked_auto"></string>
+    <string name="txt_3_1_question">Questtion: </string>
+    <string name="txt_3_1_awnser">Answer:</string>
+    <string name="msg_3_1_user_booked_title">Booking</string>
+    <string name="txt_3_1_receive">Receive</string>
+    <string name="txt_3_1_cancel">Cancel</string>
+    <string name="txt_3_1_cancel_successfull">Cancel successfull</string>
+    <string name="txt_8_weekend">Weekend</string>
+    <string name="txt_8_input_hours">Please input hours</string>
+    <string name="txt_8_setting_deny">Setting for deny in weekend.</string>
+    <string name="txt_8_weekend_on">Bật</string>
+    <string name="txt_8_weekend_off">Tắt</string>
+
+</resources>

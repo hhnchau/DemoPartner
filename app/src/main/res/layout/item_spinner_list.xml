@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_spinner_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:padding="@dimen/spinner_list_padding"
+        android:textSize="@dimen/spinner_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="@dimen/spinner_list_margin"
+        android:layout_marginRight="@dimen/spinner_list_margin"
+        android:background="@color/org" />
+
+</LinearLayout>

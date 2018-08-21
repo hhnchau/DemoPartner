@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_dialog_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listView_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_listview_height"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none"/>
+
+</RelativeLayout>
